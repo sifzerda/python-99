@@ -11,4 +11,8 @@
    2. Folder: Static:
       1. --> style.css
 5. 
-6. 
+
+
+
+Run site: 
+- python app.py
