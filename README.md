@@ -10,7 +10,7 @@
       1. --> index.html
    2. Folder: Static:
       1. --> style.css
-5. 
+5. Add html and link to css
 
 
 
