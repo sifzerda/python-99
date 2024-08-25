@@ -1,11 +1,90 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center;
-    padding: 50px;
 }
 
+/* Navigation bar styling */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Container for page content */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
 h1 {
-    color: #5a5a5a;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
