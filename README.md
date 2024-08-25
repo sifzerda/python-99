@@ -1,6 +1,6 @@
 # python-99
 
-
+Basic multi-page python site template for future projects
 
 1. python -m pip install --upgrade pip
 2. pip install Flask
